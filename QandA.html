@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Q&A Section</title>
+  <link rel="stylesheet" href="qa-style.css" />
+</head>
+<body>
+      <nav>
+        <ul>
+            <li><a href="./home.html">Home</a></li>
+            <li><a href="./planning.html">Planning</a></li>
+            <li><a href="./notes.html">Note-Taking</a></li>
+            <li><a href="./memo.html">Memorization</a></li>
+            <li><a href="./exam.html">Exam Prep & Procrastination</a></li>
+            <li><a href="./aboutg.html">About</a></li>
+        </ul>
+    </nav>
+
+
+  <div class="container">
+    <h1 class="title">Frequently Asked Questions</h1>
+
+    <div class="qa-box">
+      <button class="question" onclick="toggleAnswer(this)">
+        What is the best time to study?
+      </button>
+      <div class="answer">
+        The best time is early morning when your brain is fresh. But it depends on your energy pattern!
+      </div>
+    </div>
+
+    <div class="qa-box">
+      <button class="question" onclick="toggleAnswer(this)">
+        How can I memorize faster?
+      </button>
+      <div class="answer">
+        Use mind maps, spaced repetition, and teach what you've learned to others.
+      </div>
+
+      <div class="qa-box">
+      <button class="question" onclick="toggleAnswer(this)">
+        What are the best sources to study math?
+      </button>
+      <div class="answer">
+        The best sources are always your professors at school, and their worksheets, if you want to use outside sources, we recommend these youtube channels: Exo7, Michael Penn, Wrath of Math...etc
+As for sources for math problems, we recommend bibmath.net, exo7.com.
+      </div>
+    </div>
+
+    <div class="qa-box">
+      <button class="question" onclick="toggleAnswer(this)">
+       Can I rely on youtube to learn math?
+      </button>
+      <div class="answer">
+        Not entirely, while it may help you grasp some concepts, math isn't done well in a non-interractive environment, that's why we recommend relying on your professor as a main educator, and math books as a secondary option.
+      </div>
+    </div>
+    <div class="qa-box">
+      <button class="question" onclick="toggleAnswer(this)">
+        Should I focus on practice or understanding?
+      </button>
+      <div class="answer">
+        We recommend you don't solely focus on one part, math is a mix of good understanding and enough practice to fully grasp the concepts and be able to manipulate it.
+
+      </div>
+    </div>
+    <div class="qa-box">
+      <button class="question" onclick="toggleAnswer(this)">
+      How much should I study a day?
+      </button>
+      <div class="answer">
+        That is not a good way to view studying math, you should focus on  consistency and quality rather than quantity, what matters is being consistent and studying efficiently.
+      </div>
+    </div>
+    <div class="qa-box">
+      <button class="question" onclick="toggleAnswer(this)">
+        How should I approach new concepts? 
+      </button>
+      <div class="answer">
+        The best approach is always to break it down to more familiar concepts and try to build the new concepts with preexisting knowledge and relaying it to concepts you already know, and make sure to take your time and to not feel intimidated!
+      </div>
+    </div>
+    <div class="qa-box">
+      <a href="question1.html" class="question link-style">Go to advanced time planning</a>
+    </div>
+  </div>
+
+  <script>
+    function toggleAnswer(button) {
+      const answer = button.nextElementSibling;
+      answer.classList.toggle("show");
+    }
+  </script>
+    <div class="back-home">
+  <a href="home.html">Go Back Home</a>
+</div>
+</body>
+</html>

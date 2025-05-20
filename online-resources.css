@@ -1,0 +1,96 @@
+.circle-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    background-color: #b97c45;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+    background-color:  #c9822c; /* Darker shade for hover */
+}
+
+
+.resource-circle {
+  background-color: #a86e3c;
+  color: white;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.resource-circle:hover {
+  background-color: #925b30;
+}
+.title-box {
+  background-color: #f4d6b0; /* Light brown */
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 15px 20px;
+  border-radius: 16px;
+  margin: 20px auto 10px;
+  width: fit-content;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+.title-box h1 {
+  margin: 0;
+  font-size: 20px;
+  color: #5a3b1f;
+}
+
+.title-icon {
+  width: 28px;
+  height: 28px;
+}
+.back-home {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.back-home a {
+  background-color: #8B5E3C; /* brown */
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: bold;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.back-home a:hover {
+  background-color: #A97455; /* lighter brown on hover */
+}

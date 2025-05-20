@@ -1,0 +1,138 @@
+/* Health Page Styling */
+body {
+   font-family: "Segoe UI", sans-serif;
+}
+
+.health-page {
+  background-color: #fdf7f2;
+  font-family: 'Segoe UI', sans-serif;
+  color: #4b2e2b;
+  padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    background-color: #b97c45;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+    background-color:  #c9822c; /* Darker shade for hover */
+}
+
+
+
+/* Main section title */
+.section-title {
+  text-align: center;
+  font-size: 26px;
+  color: #6e3c2f;
+  background-color: #f3e1d3;
+  padding: 15px 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(110, 60, 47, 0.1);
+  margin-bottom: 25px;
+}
+
+/* General box style */
+.advice-box {
+  background-color: #fff4eb;
+  border: 1.5px solid #e0bfae;
+  padding: 18px;
+  margin-bottom: 25px;
+  border-radius: 18px;
+  box-shadow: 0 4px 12px rgba(180, 130, 100, 0.12);
+}
+
+/* Special nutrition box: more attention */
+.nutrition-box {
+  background-color: #fce8d8;
+  border: 2px solid #bb8864;
+}
+
+/* Headings inside boxes */
+.advice-box h2 {
+  font-size: 20px;
+  color: #7a4c2a;
+  margin-bottom: 12px;
+  border-bottom: 1px dashed #dabaa6;
+  padding-bottom: 5px;
+}
+
+/* Paragraphs inside boxes */
+.advice-box p {
+  line-height: 1.6;
+  margin-bottom: 12px;
+  color: #5b3c30;
+}
+
+.advice-box strong {
+  display: block;
+  margin-bottom: 4px;
+  color: #6e3c2f;
+  font-weight: 600;
+}
+
+/* Go back button */
+.back-button {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.back-button a {
+  display: inline-block;
+  background-color: #8b5c3e;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 24px;
+  border-radius: 30px;
+  font-weight: 500;
+  box-shadow: 0 3px 8px rgba(120, 70, 40, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+.back-button a:hover {
+  background-color: #a06b47;
+} 
+.back-home a {
+  background-color: #8B5E3C; /* brown */
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: bold;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+.top-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 0 10px;
+}
+
+.top-buttons a {
+  text-decoration: none;
+  background-color: #1e2a38;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 14px;
+}

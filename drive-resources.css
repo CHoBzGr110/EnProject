@@ -1,0 +1,55 @@
+.page-title {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 20px;
+  color: #4e2e20;
+}
+
+.drive-box {
+  background-color: #e5bb8e;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+  color: #4e2e20;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.drive-link {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.drive-link a {
+  background-color: #a86e3c;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.drive-link a:hover {
+  background-color: #925b30;
+}
+.back-home {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.back-home a {
+  background-color: #8B5E3C; /* brown */
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: bold;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.back-home a:hover {
+  background-color: #A97455; /* lighter brown on hover */
+}
